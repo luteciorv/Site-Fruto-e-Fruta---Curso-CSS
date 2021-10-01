@@ -1,0 +1,17 @@
+﻿.person{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0) {
+    .person{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .person{
+        margin-bottom: 0;
+    }
+}

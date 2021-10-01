@@ -1,0 +1,4 @@
+﻿/*Cabeçalho => Menu de Navegação => Lista não ordenada*/
+.menu__list {
+    display: flex;
+}

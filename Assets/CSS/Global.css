@@ -1,0 +1,45 @@
+﻿/*-------------------- Incluir os demais arquivos CSS aqui --------------------*/
+/*Arquivos de reset*/
+@import "normalize.css";
+@import "reset.css";
+
+/*Coisas gerais da página*/
+@import "Header.css";
+@import "Footer.css";
+@import "Logo.css";
+@import "Peoples.css";
+@import "Recipes.css";
+
+/*Sobre*/
+@import "About/About.css";
+@import "About/About-Title.css";
+@import "About/About-Description.css";
+
+/*Banner*/
+@import "Banner/Banner.css";
+@import "Banner/Banner-Title.css";
+@import "Banner/Banner-Image.css";
+
+/*Menu*/
+@import "Menu/Menu-Item.css";
+@import "Menu/Menu-Link.css";
+@import "Menu/Menu-List.css";
+
+/*Pessoa*/
+@import "Person/Person.css";
+@import "Person/Person-Name.css";
+@import "Person/Person-Image.css";
+@import "Person/Person-Role.css";
+
+/*Receita*/
+@import "Recipe/Recipe.css";
+@import "Recipe/Recipe-Button.css";
+@import "Recipe/Recipe-Content.css";
+@import "Recipe/Recipe-Description.css";
+@import "Recipe/Recipe-Image.css";
+@import "Recipe/Recipe-Title.css";
+
+/*Quem somos*/
+@import "Who-We-Are/WhoWeAre.css";
+@import "Who-We-Are/WhoWeAre-Title.css";
+@import "Who-We-Are/WhoWeAre-Description.css";

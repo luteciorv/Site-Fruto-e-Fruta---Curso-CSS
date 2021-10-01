@@ -1,15 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Fruta & Fruto</title>
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-    </head>
-    <body>
-        Oin
-    </body>
+<head>
+    <!--Importação de fonte-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+
+    <!--Acentuação-->
+    <meta charset="UTF-8" />
+
+    <!--Responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fruta & Fruto</title>
+    
+    <!--Arquivos de reset dos navegadores-->
+    <link href="./Assets/CSS/normalize.css" rel="stylesheet" />
+    <link href="./Assets/CSS/reset.css" rel="stylesheet" />
+
+    <!--Importar os arquivos de CSS-->
+    <link rel="stylesheet" href="Assets/CSS/Global.css" />
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="header">
+        <!--Logo-->
+        <img class="logo" alt="Fruto e Fruta" src="Assets/Img/Logo.jpg" />
+
+        <!--Menu de navegação-->
+        <nav class="menu">
+            <!--Lista não ordenada-->
+            <ul class="menu__list">
+                <!--Elementos da lista-->
+                <li class="menu__item"><a class="menu__link active" href="#">Início    </a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Receitas  </a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Banner-->
+    <section class="banner">
+        <!--Imagem do banner-->
+        <div class="banner__image"> </div>
+
+        <!--Título-->
+        <h2 class="banner__title">Reaproveite melhor os alimentos</h2>
+    </section>
+    <section class="about">
+        <!--Título-->
+        <h2 class="about__title">Receitas para economizar e ganhar mais saúde</h2>
+
+        <!--Descrição-->
+        <p class="about__description">
+            Nossas receitas ajudam você a aproveitar melhor os alimentos,
+            economizando, ganhando tempo e também praticidade
+        </p>
+    </section>
+
+    <!--Cartões com as receitas-->
+    <section class="recipes">
+        <!--Receita #1-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Tigela de abacate" src="Assets/Img/Recipes/Tigela de Abacate.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Tigela de abacate
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+
+        <!--Receita #2-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Salada de kiwi" src="Assets/Img/Recipes/Salada de Kiwi.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Salada de kiwi
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+
+        <!--Receita #3-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Mix de vegetais" src="Assets/Img/Recipes/Mix de Vegetais.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Mix de vegetais
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+
+        <!--Receita #4-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Pimentões à Juliana" src="Assets/Img/Recipes/Pimentoes a Juliana.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Pimentões à Juliana
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+
+        <!--Receita #5-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Prato oriental" src="Assets/Img/Recipes/Prato Oriental.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Prato oriental
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+
+        <!--Receita #6-->
+        <div class="recipe">
+            <!--Imagem-->
+            <img class="recipe__image" alt="Beterrabas assadas" src="Assets/Img/Recipes/Beterrabas Assadas.jpg" />
+
+            <!--Conteúdo-->
+            <div class="recipe__content">
+                <!--Título-->
+                <h4 class="recipe__title">
+                    Beterrabas assadas
+                </h4>
+
+                <!--Descrição-->
+                <p class="recipe__description">
+                    Receita refrescante e cheia de vitaminas para seu café da manhã.
+                </p>
+
+                <!--Botão-->
+                <button class="recipe__button">Ver receita</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Quem somos-->
+    <section class="who_we_are">
+        <!--Título-->
+        <h3 class="w_ho_we_are_title">Quem somos</h3>
+
+        <!--Descrição-->
+        <p class="who_we_are__description">Conheça a comunidade por trás da iniciativa</p>
+        
+        <!--Pessoas-->
+        <div class="peoples">
+            <!--Pessoa #1-->
+            <div class="person">
+                <div class="person__image person__image--roberta"></div>
+                <span class="person__name">Roberta</span>
+                <span class="person__role">Conteúdo</span>
+            </div>
+
+            <!--Pessoa #2-->
+            <div class="person">
+                <div class="person__image person__image--marcela"></div>
+                <span class="person__name">Marcela</span>
+                <span class="person__role">Chef de cozinha</span>
+            </div>
+
+            <!--Pessoa #3-->
+            <div class="person">
+                <div class="person__image person__image--andreia"></div>
+                <span class="person__name">Gau Gau</span>
+                <span class="person__role">Pequena Produtora</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="footer">
+        Contato: luteciorv@gmail.com
+    </footer>
+</body>
 </html>
