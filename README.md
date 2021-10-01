@@ -15,8 +15,16 @@ Usei o padrão de organização BEM (Block Element Modifier), que lembra muito u
 Dito isso, eu organizei de tal forma e criei um arquivo .css geral chamado "Global.css", que importa para sí todos os demais arquivos .css do projeto. Assim, eu apenas preciso importar unicamente "um" arquivo .css no "Index.html"
 
 ### Janelas
-![](Assets/Img/Screens/Image_1.PNG?raw=true)
-![](Assets/Img/Screens/Image_2.PNG?raw=true)
-![](Assets/Img/Screens/Image_3.PNG?raw=true)
-![](Assets/Img/Screens/Image_4.PNG?raw=true)
+> * Computador
+![](Assets/Img/Screens/PC-Image_1.PNG?raw=true)
+![](Assets/Img/Screens/PC-Image_2.PNG?raw=true)
+![](Assets/Img/Screens/PC-Image_3.PNG?raw=true)
+![](Assets/Img/Screens/PC-Image_4.PNG?raw=true)
+
+> * Celular
+![](Assets/Img/Screens/Phone-Image_1.PNG?raw=true)
+![](Assets/Img/Screens/Phone-Image_2.PNG?raw=true)
+![](Assets/Img/Screens/Phone-Image_3.PNG?raw=true)
+![](Assets/Img/Screens/Phone-Image_4.PNG?raw=true)
+
 
